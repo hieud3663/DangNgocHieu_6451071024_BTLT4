@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_baitap_chuong4/view/screens/2/form_userinfo.dart';
 import 'package:flutter_baitap_chuong4/view/screens/3/form_survey.dart';
-import 'package:flutter_baitap_chuong4/view/screens/4/form_Book.dart';
+import 'package:flutter_baitap_chuong4/view/screens/4/form_book.dart';
 import 'package:flutter_baitap_chuong4/view/screens/5/form_upload_cv.dart';
 import 'package:flutter_baitap_chuong4/view/screens/6/form_register_v2.dart';
+import 'package:flutter_baitap_chuong4/view/screens/7/form_profile_styling.dart';
 import '../../../models/dashboard_item.dart';
 import '../../../widget/dashboard_card.dart';
 import '../1/form_register_screen.dart';
@@ -68,15 +69,15 @@ class DashboardScreen extends StatelessWidget {
           MaterialPageRoute(builder: (_) => FormRegisterV2()),
         ),
       ),
-      // DashboardItem(
-      //   icon: Icons.tune,
-      //   iconColor: Colors.amber,
-      //   label: 'Bài 7: Slider tự tạo',
-      //   onTap: () => Navigator.push(
-      //     context,
-      //     MaterialPageRoute(builder: (_) => const CustomSliderScreen()),
-      //   ),
-      // ),
+      DashboardItem(
+        icon: Icons.tune,
+        iconColor: Colors.amber,
+        label: 'Bài 7: Form profile styling',
+        onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => FormProfileStyling()),
+        ),
+      ),
       // DashboardItem(
       //   icon: Icons.grid_on,
       //   iconColor: Colors.indigo,

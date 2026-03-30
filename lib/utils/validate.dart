@@ -37,6 +37,12 @@ class Validate {
     return name.length >= 2 && name.length <= 100;
   }
 
+  static bool isValidBio(String bio) {
+    if(bio == null || bio.isEmpty) {
+      return false;
+    }
+    return bio.length <= 150;
+  }
 
   static bool isValidAge(String age){
     if(age == null || age.isEmpty){

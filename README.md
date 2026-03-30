@@ -35,8 +35,10 @@ lib/
         │   └── form_book.dart
         ├── 5/
         │   └── form_upload_cv.dart
-        └── 6/
-            └── form_register_v2.dart
+        ├── 6/
+        │    └── form_register_v2.dart
+        └── 7/
+            └── form_profile_styling.dart
 ```
 
 ---
@@ -79,3 +81,5 @@ lib/
 
 ---
 
+### Bài 7: Form Chỉnh Sửa Hồ Sơ Cá Nhân
+![Bài 7](lib/view/screens/7/image.png)
